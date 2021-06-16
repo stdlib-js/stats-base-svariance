@@ -48,7 +48,7 @@ tape( 'attached to the main export is a method providing an ndarray interface', 
 
 tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
 	var svariance = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( svariance, mock, 'returns expected value' );
@@ -70,7 +70,7 @@ tape( 'if a native implementation is not available, the main export is a JavaScr
 	main = require( './../lib/svariance.js' );
 
 	svariance = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( svariance, main, 'returns expected value' );
