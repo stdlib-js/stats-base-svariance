@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-25)
+## Unreleased (2025-03-02)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5359](https://github.com/stdlib-js/stdlib/issues/5359)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`886e85a`](https://github.com/stdlib-js/stdlib/commit/886e85abd4bd0515526e273919b43e00a93d7264) - **docs:** fix C lint errors [(#5408)](https://github.com/stdlib-js/stdlib/pull/5408) _(by Neeraj Pathak)_
 -   [`1223597`](https://github.com/stdlib-js/stdlib/commit/1223597e150b36a74a6a9d7deb9a0804db51387c) - **refactor:** update `stats/base/svariance` native addon from C++ to C [(#4213)](https://github.com/stdlib-js/stdlib/pull/4213) _(by Vinit Pandit, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
@@ -28,9 +41,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Neeraj Pathak
 -   Philipp Burckhardt
 -   Vinit Pandit
 
