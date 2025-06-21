@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-08)
+## Unreleased (2025-06-21)
+
+<section class="features">
+
+### Features
+
+-   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`1da8f0b`](https://github.com/stdlib-js/stdlib/commit/1da8f0b495dfbdf25b716bc8c778f087e4c57892) - **feat:** add C ndarray interface and refactor implementation for `stats/base/svariance` [(#7402)](https://github.com/stdlib-js/stdlib/pull/7402) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
 -   [`ea622d9`](https://github.com/stdlib-js/stdlib/commit/ea622d981caec008ecc84f33c2253e39c0267576) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`fbce42c`](https://github.com/stdlib-js/stdlib/commit/fbce42c8ae4ce2a5517960942d70ce4eaef15c3e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`e61abc7`](https://github.com/stdlib-js/stdlib/commit/e61abc75775756383a20985c7166f85149ee0b68) - **refactor:** update paths _(by Aayush Khanna)_
